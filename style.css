@@ -30,14 +30,17 @@ body {
 }
 
 #header {
-position: absolute;
+position: fixed; /*makes header sticky when scrolling*/
 display: block;
 background: #355C7D;
 color: white;
 width: 100%;
 height: 40px;
-top: -2.3em;
+top: 0;
+left: 0;
+margin: 0;
 padding: 10px 16px;
+z-index: 9001; /*prevents transparency*/
 }
 
 h3 {
@@ -61,29 +64,53 @@ button:hover {
     background-color: purple;
 }
 
+
 #box2 {
-    position: relative;
-    top: -300px;
-    left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #829CD0;
+    position: relative;
+    top: -200px;
+    text-align: center;
+    padding-top: 85px; 
+    padding-bottom: 85px;
 }
+
+
 
 #plantimg {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 60px;
   position: relative;
   right: 70px;
-  border-radius: 25px; 
+  border-radius: 25px;
 }
 
 #planttitle {
     text-align: center;
+    position: relative;
+    color: #829CD0;
+    width: 100%;
+}
+
+#Plantbot {
+    position: relative;
+    top: -710px;
+    left: 32%;
 }
 
 #tomatoes, #strawbs, #flowers, #purple {
     border-radius: 20px;
     width: 200px;
     height: 200px;
+    display: flex;
+    border: 5px solid white;
+}
+
+#p-one, p-two, p-three, p-four {
+    display: flex;
+    flex-direction: column;
 }
 
