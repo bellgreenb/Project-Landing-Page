@@ -80,11 +80,11 @@ button:hover {
 
 
 #plantimg {
-    display: flex;
+   display: flex;
     flex-direction: row;
     gap: 60px;
   position: relative;
-  right: 70px;
+  right: 75px;
   border-radius: 25px;
 }
 
@@ -114,3 +114,24 @@ button:hover {
     flex-direction: column;
 }
 
+#box3 {
+    /*display: block;*/
+    margin: 0 auto; /*centers a block element*/
+    position: relative;
+    top: -320px;
+    font-size: 35px;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBEBEB;
+    margin: 1 1 2em;
+    padding: 1em 8.5em;
+}
+
+#quote {
+    font-style: italic;
+    font-family: monospace;
+    background-color: #EBEBEB;
+}
