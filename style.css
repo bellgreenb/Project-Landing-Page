@@ -43,6 +43,16 @@ padding: 10px 16px;
 z-index: 9001; /*prevents transparency*/
 }
 
+#links {
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+    right: 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
 h3 {
 font-size: 40px;
 }
@@ -52,7 +62,7 @@ a {
     color: white;
 }
 
-button {
+#button-one, #button-two {
     padding: 5px 10px;
     margin: 10px;
     border-radius: 8px;
@@ -60,8 +70,10 @@ button {
     
 }
 
-button:hover {
+#button-one:hover {
     background-color: purple;
+    padding: 8px 13px;
+    border-radius: 11px;
 }
 
 
@@ -133,5 +145,57 @@ button:hover {
 #quote {
     font-style: italic;
     font-family: monospace;
-    background-color: #EBEBEB;
+    position: absolute;
+    width: 600px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#interest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 500px;
+    width: 600px;
+    height: 200px;
+    flex-wrap: nowrap;
+    background-color: #1171ba;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+#sign1 {
+   position: relative;
+   top: 10px; 
+}
+
+#sign2 {
+    position: relative;
+    top: -40px;
+    font-size: 20px;
+}
+    
+
+#button-two {
+    position: relative;
+    top: 580px;
+    left: -360px;
+    white-space: nowrap;
+    text-align: center;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+}
+
+#button-two:hover {
+    background-color: white;
+    color: #1171ba;
+    border-color: #1171ba;
 }
