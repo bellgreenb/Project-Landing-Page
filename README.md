@@ -1,6 +1,12 @@
 # Project-Landing-Page
 
-###IMAGE CREDITS###
+#### Link
+https://bellgreenb.github.io/Project-Landing-Page/ 
+
+![image](https://github.com/user-attachments/assets/5dc79315-e4a2-4ee5-948f-ac78a4979f9e)
+
+
+#### IMAGE CREDITS
 
 image 1: Michael Schwarzenberger
 pixabay user id: user_id:52945
